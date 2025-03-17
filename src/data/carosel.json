@@ -1,0 +1,26 @@
+[
+    {
+      "id": 1,
+      "image": "smImage",
+      "alt": "Discover Ethiopia",
+      "title": "Discover the Heart of Ethiopia",
+      "description": "Adventure, Culture, and Unforgettable Memories",
+      "buttonText": "Explore Our Tours"
+    },
+    {
+      "id": 2,
+      "image": "lalibelaImage",
+      "alt": "Lalibela Churches",
+      "title": "Explore Ancient Wonders",
+      "description": "Discover the rock-hewn churches of Lalibela.",
+      "buttonText": "Learn More"
+    },
+    {
+      "id": 3,
+      "image": "cultImage",
+      "alt": "Omo Valley Culture",
+      "title": "Experience Vibrant Cultures",
+      "description": "Immerse yourself in the traditions of the Omo Valley.",
+      "buttonText": "Book Now"
+    }
+  ]
