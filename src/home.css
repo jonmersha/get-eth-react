@@ -258,3 +258,29 @@ footer a:hover {
     font-size: 0.9rem;
   }
 }
+
+/*=========================================Like Component */
+.like-component {
+  display: inline-block;
+}
+
+.like-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  border-radius: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.like-button:hover {
+  background-color: #f0f0f0;
+}
+
+.like-button.liked {
+  color: #ff0000;
+}

@@ -1,13 +1,26 @@
 import { Link } from "react-router-dom";
+import image from './../image/logo.png'
 
 const NavigationBar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container">
         <Link className="navbar-brand" to="/">
-          Edible Marketplace
+          <img src={image} alt="GetTour"/>
         </Link>
-        {/* Toggler Button */}
+        
+        <form className="d-flex" role="search">
+            <input
+              className="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button className="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        
         <button
           className="navbar-toggler"
           type="button"
@@ -21,7 +34,10 @@ const NavigationBar = () => {
         </button>
         {/* Collapsible Content */}
         <div className="collapse navbar-collapse" id="navbarNav">
+      
+        
           <ul className="navbar-nav ms-auto">
+          
             <li className="nav-item">
               <Link className="nav-link" to="/">
                 Home
@@ -33,7 +49,7 @@ const NavigationBar = () => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/destination">
+              <Link className="nav-link" to="/region">
                 Destinations
               </Link>
             </li>
@@ -46,7 +62,7 @@ const NavigationBar = () => {
             </li>
 
             <li className="nav-item">
-              <Link className="nav-link" to="/contact-support">
+              <Link className="nav-link" to="/contact">
                 Contact
               </Link>
             </li>

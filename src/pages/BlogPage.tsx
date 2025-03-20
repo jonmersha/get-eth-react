@@ -1,4 +1,3 @@
-import React from 'react';
 import top5Image from '../image/top5.png'; // Adjust the path to your image
 import smImage from '../image/sm.png'; // Adjust the path to your image
 import gdImage from '../image/gd.png'; // Adjust the path to your image
