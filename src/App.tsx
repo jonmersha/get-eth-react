@@ -21,6 +21,7 @@ function App() {
       />
       <Routes>
         
+        
         {/* <Route path="/" element={<ProductGrid products={products} />} /> */}
         <Route path="/" element={<Home />} />
         {/* <Route path="/destination" element={<DestinationsByRegion />} /> */}
