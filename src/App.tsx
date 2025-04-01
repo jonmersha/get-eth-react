@@ -10,6 +10,7 @@ import SiteDetail from "./pages/SiteDetail"
 import Contact from "./pages/Contact"
 import RegionList from "./pages/RegionList"
 import SuccessPage from "./admin/suaccess"
+import ImageGallery from "./pages/ImageGallery"
 
 function App() {
 
@@ -20,7 +21,7 @@ function App() {
 
       />
       <Routes>
-        
+
         
         {/* <Route path="/" element={<ProductGrid products={products} />} /> */}
         <Route path="/" element={<Home />} />
@@ -32,6 +33,7 @@ function App() {
         <Route path="/site/:id" element={<SiteDetail />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/success" element={<SuccessPage />} />
+        <Route path="/gallery" element={<ImageGallery />} />
       </Routes>
       <Footer/>
     </Router>

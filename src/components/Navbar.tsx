@@ -48,6 +48,7 @@ const NavigationBar = () => {
                 About Us
               </Link>
             </li>
+            
             <li className="nav-item">
               <Link className="nav-link" to="/region">
                 Destinations
@@ -60,10 +61,15 @@ const NavigationBar = () => {
                 Blogs
               </Link>
             </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/gallery">
+                Image Gallary
+              </Link>
+            </li>
 
             <li className="nav-item">
               <Link className="nav-link" to="/contact">
-                Contact
+                Contact us
               </Link>
             </li>
             {/* <li className="nav-item">
